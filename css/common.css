@@ -20,5 +20,5 @@ html,body{width: 100%; height: 100%;}
 
 #wrap{width: 100%; height: 100%;}
 
-#loading{width: 100%; height: 100%; position: fixed; top: 0; left: 0; display: block; z-index: 99; text-align: center; background-color: black; opacity: 0.9;}
+#loading{width: 100%; height: 100%; position: fixed; top: 0; left: 0; display: block; z-index: 99; text-align: center; background-color: black;}
 #loading img{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%);}

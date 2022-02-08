@@ -6,7 +6,7 @@ $(function(){
 
         var s2=$('.section2').offset().top;
 
-        if(ws>s2-1000){
+        if(ws>s2-100){
    
 
             var cnt0 = 0;
