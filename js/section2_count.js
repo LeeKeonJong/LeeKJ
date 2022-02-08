@@ -1,11 +1,17 @@
 $(function(){
 
-    var cnt0 = 0;
+    $(window).scroll(function(){
 
-    counterFn();
+        var ws=$(this).scrollTop();
 
+        var s2=$('.section2').offset().top;
+
+        if(ws>=s2-700){
+   
+
+            var cnt0 = 0;
+            counterFn();
     
-
     function counterFn(){
        
         id0 = setInterval(count0Fn, 70);
@@ -36,7 +42,6 @@ $(function(){
         }
 
     }
-
-    
-
+  }
+ });
 });
