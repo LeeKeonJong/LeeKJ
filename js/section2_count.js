@@ -6,7 +6,7 @@ $(function(){
 
         var s2=$('.section2').offset().top;
 
-        if(ws>s2-700){
+        if(ws>s2-1000){
    
 
             var cnt0 = 0;
@@ -14,10 +14,10 @@ $(function(){
     
     function counterFn(){
        
-        id0 = setInterval(count0Fn, 70);
-        id1 = setInterval(count0Fn, 70);
-        id2 = setInterval(count0Fn, 70);
-        id3 = setInterval(count0Fn, 70);
+        id0 = setInterval(count0Fn, 100);
+        id1 = setInterval(count0Fn, 100);
+        id2 = setInterval(count0Fn, 100);
+        id3 = setInterval(count0Fn, 100);
     
         function count0Fn(){
             cnt0++;
