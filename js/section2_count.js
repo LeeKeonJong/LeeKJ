@@ -17,10 +17,10 @@ $(function(){
         if(ws>s2-700){
         
        setTimeout(function(){
-        id0 = setInterval(count0Fn, 700);
+        id0 = setInterval(count0Fn, 100);
         id1 = setInterval(count0Fn, 1000);
-        id2 = setInterval(count0Fn, 800);
-        id3 = setInterval(count0Fn, 900);
+        id2 = setInterval(count0Fn, 100);
+        id3 = setInterval(count0Fn, 100);
     },800);
     
 }
