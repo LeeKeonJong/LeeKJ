@@ -13,12 +13,12 @@ $(function(){
             counterFn();
     
     function counterFn(){
-       
+       setTimeout(function(){
         id0 = setInterval(count0Fn, 100);
         id1 = setInterval(count0Fn, 100);
         id2 = setInterval(count0Fn, 100);
         id3 = setInterval(count0Fn, 100);
-    
+    },800);
         function count0Fn(){
             cnt0++;
             if (cnt0 > 90) {
