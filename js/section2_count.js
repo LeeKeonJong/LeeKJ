@@ -1,8 +1,7 @@
 $(function(){
-
+  
    
-   
-            
+           
             var cnt0 = 0;
             counterFn();
     
@@ -14,16 +13,16 @@ $(function(){
 
         var s2=$('.section2').offset().top;
 
-        if(ws>s2-700){
+        if(ws>s2-100){
         
        setTimeout(function(){
         id0 = setInterval(count0Fn, 100);
-        id1 = setInterval(count0Fn, 1000);
+        id1 = setInterval(count0Fn, 100);
         id2 = setInterval(count0Fn, 100);
         id3 = setInterval(count0Fn, 100);
-    },800);
+    },900);
     
-}
+ }
 });
         function count0Fn(){
             cnt0++;
