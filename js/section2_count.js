@@ -1,24 +1,30 @@
 $(function(){
 
-    $(window).scroll(function(){
+   
+   
+            
+            var cnt0 = 0;
+            counterFn();
+    
+    function counterFn(){
+
+        $(window).scroll(function(){
 
         var ws=$(this).scrollTop();
 
         var s2=$('.section2').offset().top;
 
-        if(ws>s2-100){
-   
-
-            var cnt0 = 0;
-            counterFn();
-    
-    function counterFn(){
+        if(ws>s2-700){
+        
        setTimeout(function(){
-        id0 = setInterval(count0Fn, 100);
-        id1 = setInterval(count0Fn, 100);
-        id2 = setInterval(count0Fn, 100);
-        id3 = setInterval(count0Fn, 100);
+        id0 = setInterval(count0Fn, 700);
+        id1 = setInterval(count0Fn, 1000);
+        id2 = setInterval(count0Fn, 800);
+        id3 = setInterval(count0Fn, 900);
     },800);
+    
+}
+});
         function count0Fn(){
             cnt0++;
             if (cnt0 > 90) {
@@ -42,6 +48,5 @@ $(function(){
         }
 
     }
-  }
- });
+
 });
