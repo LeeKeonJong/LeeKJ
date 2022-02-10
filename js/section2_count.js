@@ -11,16 +11,18 @@ $(function(){
 
         var ws=$(this).scrollTop();
 
-        var s2=$('.section2').offset().top;
+        var s2=$('#section2_top').offset().top;
+        
+        var sec2=$('.section2').offset().top;
 
-        if(ws>s2-100){
+        if(ws>s2-500){
         
        setTimeout(function(){
         id0 = setInterval(count0Fn, 100);
         id1 = setInterval(count0Fn, 100);
         id2 = setInterval(count0Fn, 100);
         id3 = setInterval(count0Fn, 100);
-    },900);
+    },700);
     
  }
 });
