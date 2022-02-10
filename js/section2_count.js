@@ -24,7 +24,7 @@ $(function(){
         if(ws>s2-300){
         
        setTimeout(function(){
-        id0 = setInterval(count0Fn, 100);
+        id0 = setInterval(count0Fn, 130);
         
     },800);
     
@@ -57,7 +57,7 @@ $(function(){
         if(ws>s2-300){
         
        setTimeout(function(){
-        id1 = setInterval(count1Fn, 100);
+        id1 = setInterval(count1Fn, 130);
         
     },800);
     
@@ -89,7 +89,7 @@ $(function(){
         if(ws>s2-300){
         
        setTimeout(function(){
-        id2 = setInterval(count2Fn, 100);
+        id2 = setInterval(count2Fn, 130);
         
     },800);
     
@@ -121,7 +121,7 @@ $(function(){
         if(ws>s2-300){
         
        setTimeout(function(){
-        id3 = setInterval(count3Fn, 100);
+        id3 = setInterval(count3Fn, 130);
         
     },800);
     
