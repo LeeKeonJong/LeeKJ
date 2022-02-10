@@ -181,4 +181,48 @@ $(function(){
       }
        
     });
+
+
+
+    $(window).scroll(function(){
+
+        var move=$(this).scrollTop();
+        var section3=$('.pf4_img').offset().top;
+        if(move>section3-700){
+            setTimeout(function(){
+            $(".pf_animate4").css("display","block");
+        },100);
+        }
+        if(move>section3-700){
+            setTimeout(function(){
+            $(".nike_img").css("transform","translateY(0px)").css("opacity","1");
+        },300);
+       }
+        if(move>section3-700){
+            setTimeout(function(){
+            $(".pf4_h4").css("transform","translateY(0px)").css("opacity","1");
+        },300);
+       }
+       if(move>section3-700){
+        setTimeout(function(){
+        $(".pf4_h1").css("transform","translateY(0px)").css("opacity","1");
+        },400);
+       }
+       if(move>section3-700){
+        setTimeout(function(){
+        $(".pf4_p").css("transform","translateY(0px)").css("opacity","1");
+       },500);
+      }
+      if(move>section3-700){
+        setTimeout(function(){
+        $(".pf4_address").css("transform","translateY(0px)").css("opacity","1");
+       },600);
+      }
+      if(move>section3-700){
+        setTimeout(function(){
+        $(".pf4_btnbox").css("transform","translateY(0px)").css("opacity","1");
+       },700);
+      }
+       
+    });
 });

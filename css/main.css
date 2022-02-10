@@ -38,8 +38,8 @@
 .pf1{display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;}
 .portfolio_img{width: 600px; height: 380px; }
 .pf1_img{position: relative; }
-.portfolio_img .yp_img{width: 80%; height: 100%; opacity: 0; transition: 2s all;}
-.pf_animate1{content: ""; position: absolute; top: 0; left: 0; background-color: lightgray; width: 80%; height: 100%;
+.portfolio_img .yp_img{width: 100%; height: 100%; opacity: 0; transition: 2s all;}
+.pf_animate1{content: ""; position: absolute; top: 0; left: 0; background-color: lightgray; width: 100%; height: 100%;
     animation: ani1_left 0.8s cubic-bezier(0.0, 0.0, 0.2, 1) forwards; display: none;}
     @keyframes ani1_left {
         0%   {transform-origin: 0 50%; transform: scaleX(0);}
@@ -119,7 +119,21 @@
    
 
 
-.section6{background-color: darkblue;}
+.section6{display: flex; justify-content: center; align-items: center; background-repeat: no-repeat; background-size: cover;}
+.pf4{display: flex; flex-direction: row-reverse; justify-content: space-evenly; align-items: center;}
+.pf4_img{position: relative; }
+.portfolio_img .nike_img{width: 100%; height: 100%; opacity: 0; transition: 2s all;}
+.pf_animate4{content: ""; position: absolute; top: 0; left: 0; background-color: lightgray; width: 100%; height: 100%;
+    animation: ani2_left 0.8s cubic-bezier(0.0, 0.0, 0.2, 1) forwards; display: none;}
+    @keyframes ani2_left {
+        0%   {transform-origin: 100% 50%; transform: scaleX(0);}
+        60%  {transform-origin: 100% 50%; transform: scaleX(1);}
+        70%  {transform-origin: 0 50%; transform: scaleX(1);}
+        100% {transform-origin: 0 50%; transform: scaleX(0);}
+    }
+
+
+
 
 .section7{background-color: purple;}
 
