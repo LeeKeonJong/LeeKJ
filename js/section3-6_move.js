@@ -60,6 +60,7 @@ $(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf1_img').offset().top;
+
         if(move>section3-700){
             setTimeout(function(){
             $(".pf_animate1").css("display","block");
