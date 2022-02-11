@@ -56,42 +56,42 @@ $(function(){
         }
     });
     
-    $(window).scroll(function(){
+    $("#sticky_div").scroll(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf1_img').offset().top;
 
-        if(move>section3-700){
+        if(move>section3-2000){
             setTimeout(function(){
             $(".pf_animate1").css("display","block");
         },100);
         }
-        if(move>section3-700){
+        if(move>section3-2000){
             setTimeout(function(){
             $(".yp_img").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-        if(move>section3-700){
+        if(move>section3-2000){
             setTimeout(function(){
             $(".pf1_h4").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-       if(move>section3-700){
+       if(move>section3-2000){
         setTimeout(function(){
         $(".pf1_h1").css("transform","translateY(0px)").css("opacity","1");
         },400);
        }
-       if(move>section3-700){
+       if(move>section3-2000){
         setTimeout(function(){
         $(".pf1_p").css("transform","translateY(0px)").css("opacity","1");
        },500);
       }
-      if(move>section3-700){
+      if(move>section3-2000){
         setTimeout(function(){
         $(".pf1_address").css("transform","translateY(0px)").css("opacity","1");
        },600);
       }
-      if(move>section3-700){
+      if(move>section3-2000){
         setTimeout(function(){
         $(".pf1_btnbox").css("transform","translateY(0px)").css("opacity","1");
        },700);
@@ -99,41 +99,41 @@ $(function(){
        
     });
 
-    $(window).scroll(function(){
+    $("#sticky_div").scroll(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf2_img').offset().top;
-        if(move>section3-700){
+        if(move>section3-1400){
             setTimeout(function(){
             $(".pf_animate2").css("display","block");
         },100);
         }
-        if(move>section3-700){
+        if(move>section3-1400){
             setTimeout(function(){
             $(".marvel_img").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-        if(move>section3-700){
+        if(move>section3-1400){
             setTimeout(function(){
             $(".pf2_h4").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-       if(move>section3-700){
+       if(move>section3-1400){
         setTimeout(function(){
         $(".pf2_h1").css("transform","translateY(0px)").css("opacity","1");
         },400);
        }
-       if(move>section3-700){
+       if(move>section3-1400){
         setTimeout(function(){
         $(".pf2_p").css("transform","translateY(0px)").css("opacity","1");
        },500);
       }
-      if(move>section3-700){
+      if(move>section3-1400){
         setTimeout(function(){
         $(".pf2_address").css("transform","translateY(0px)").css("opacity","1");
        },600);
       }
-      if(move>section3-700){
+      if(move>section3-1400){
         setTimeout(function(){
         $(".pf2_btnbox").css("transform","translateY(0px)").css("opacity","1");
        },700);
@@ -141,7 +141,7 @@ $(function(){
        
     });
 
-    $(window).scroll(function(){
+    $("#sticky_div").scroll(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf3_img').offset().top;
@@ -185,41 +185,41 @@ $(function(){
 
 
 
-    $(window).scroll(function(){
+    $("#sticky_div").scroll(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf4_img').offset().top;
-        if(move>section3-700){
+        if(move>section3+100){
             setTimeout(function(){
             $(".pf_animate4").css("display","block");
         },100);
         }
-        if(move>section3-700){
+        if(move>section3+100){
             setTimeout(function(){
             $(".nike_img").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-        if(move>section3-700){
+        if(move>section3+100){
             setTimeout(function(){
             $(".pf4_h4").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-       if(move>section3-700){
+       if(move>section3+100){
         setTimeout(function(){
         $(".pf4_h1").css("transform","translateY(0px)").css("opacity","1");
         },400);
        }
-       if(move>section3-700){
+       if(move>section3+100){
         setTimeout(function(){
         $(".pf4_p").css("transform","translateY(0px)").css("opacity","1");
        },500);
       }
-      if(move>section3-700){
+      if(move>section3+100){
         setTimeout(function(){
         $(".pf4_address").css("transform","translateY(0px)").css("opacity","1");
        },600);
       }
-      if(move>section3-700){
+      if(move>section3+100){
         setTimeout(function(){
         $(".pf4_btnbox").css("transform","translateY(0px)").css("opacity","1");
        },700);
@@ -229,8 +229,5 @@ $(function(){
 
 
     
-        $("#test").click(function(){
-          alert($("#sticky_div").scrollTop() + " px");
-        });
-      
+        
 });
