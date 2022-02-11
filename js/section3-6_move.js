@@ -61,37 +61,37 @@ $(function(){
         var move=$(this).scrollTop();
         var section3=$('.pf1_img').offset().top;
 
-        if(move>section3-2000){
+        if(move>section3-1900){
             setTimeout(function(){
             $(".pf_animate1").css("display","block");
         },100);
         }
-        if(move>section3-2000){
+        if(move>section3-1900){
             setTimeout(function(){
             $(".yp_img").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-        if(move>section3-2000){
+        if(move>section3-1900){
             setTimeout(function(){
             $(".pf1_h4").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-       if(move>section3-2000){
+       if(move>section3-1900){
         setTimeout(function(){
         $(".pf1_h1").css("transform","translateY(0px)").css("opacity","1");
         },400);
        }
-       if(move>section3-2000){
+       if(move>section3-1900){
         setTimeout(function(){
         $(".pf1_p").css("transform","translateY(0px)").css("opacity","1");
        },500);
       }
-      if(move>section3-2000){
+      if(move>section3-1900){
         setTimeout(function(){
         $(".pf1_address").css("transform","translateY(0px)").css("opacity","1");
        },600);
       }
-      if(move>section3-2000){
+      if(move>section3-1900){
         setTimeout(function(){
         $(".pf1_btnbox").css("transform","translateY(0px)").css("opacity","1");
        },700);
