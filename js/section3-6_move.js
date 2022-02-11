@@ -226,4 +226,11 @@ $(function(){
       }
        
     });
+
+
+    
+        $("#test").click(function(){
+          alert($("#sticky_div").scrollTop() + " px");
+        });
+      
 });
