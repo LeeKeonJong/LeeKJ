@@ -1,20 +1,21 @@
 $(function(){
 
-    element = document.getElementsByClassName("section7_div1");
 
-    element.addEventListener("click", function(e) {
-      e.preventDefault;
-      
-      
-      element.classList.remove("ring");
-      
-     
-      element.offsetWidth = element.offsetWidth;
-      
-      
-      element.classList.add("ring");
-    }, false);
+    element2 = document.getElementsByClassName('section7_div1')[0];
+element = document.getElementById("phon");
 
+element2.addEventListener("click", function (e) {
+    e.preventDefault;
+
+    
+    element.classList.remove("ring");
+
+    
+    element.offsetWidth = element.offsetWidth;
+
+    
+    element.classList.add("ring");
+}, false);
 
     
 });
