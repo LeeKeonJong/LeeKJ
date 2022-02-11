@@ -15,4 +15,6 @@ $(function(){
       element.classList.add("ring");
     }, false);
 
+
+    
 });
