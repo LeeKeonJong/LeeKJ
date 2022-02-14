@@ -145,7 +145,7 @@ hr{border-color: yellowgreen;}
 #section7_text span{font-size: 50px; font-family: 'SBAggroB'; color: #fff; transform: translateY(-10px); opacity: 0; transition: 0.3s all; display: inline-block;}
 #section7_contents{width: 900px; height: 400px; display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center;}
 #section7_contents .section7_div{width: 400px; height: 150px; border: 1px solid yellowgreen; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;
-                                    cursor: pointer; transition: 0.3s all;}
+                                    cursor: pointer; transition: 1s all; opacity: 0;}
 #section7_contents .section7_div:hover{transform: scale(1.1); transition: 0.3s all;}                                    
 #section7_contents .section7_div p{font-size: 25px; color: #fff; font-family: 'SBAggroL';}
 .icon_box{width: 50px; height: 50px; }

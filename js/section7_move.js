@@ -44,7 +44,11 @@ $(function(){
             $("#section7_text span:nth-child(8)").css("transform","translateY(0px)").css("opacity","1");
             },1100);
         }
-        
+        if(move>section7-500){
+            setTimeout(function(){
+            $(".section7_div").css("opacity","1");
+            },1100);
+        }    
     });
 
 });
