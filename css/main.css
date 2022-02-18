@@ -59,7 +59,7 @@
 .portfolio_text .btnbox{width: 450px; height: 100px; display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; opacity: 0; transform: translateY(30px); transition: 0.8s all;}
 .portfolio_text .btnbox button{width: 200px; height: 50px; background-color: unset; border: 1px solid yellowgreen; color: #fff; transform:skewX(-20deg); cursor: pointer;}
 .portfolio_text .btnbox button:hover{color: black;}
-.portfolio_text .btnbox button h5{ font-family: 'SBAggroL'; transform: skew(20deg); font-size: 14px; font-weight: lighter;}
+.portfolio_text .btnbox button span{ font-family: 'SBAggroL'; transform: skew(20deg); display: inline-block; font-size: 14px; font-weight: lighter;}
 .portfolio_text .btnbox a{width: 200px; height: 50px; background-color: unset; border: 1px solid yellowgreen; color: #fff; transform:skewX(-20deg); cursor: pointer; display: flex; align-items: center;}
 .portfolio_text .btnbox a:hover{color: black;}
 .portfolio_text .btnbox a h5{ font-family: 'SBAggroL'; transform: skew(20deg); font-size: 14px; font-weight: lighter; }
