@@ -145,37 +145,37 @@ $(function(){
 
         var move=$(this).scrollTop();
         var section3=$('.pf3_img').offset().top;
-        if(move>section3-700){
+        if(move>section3-500){
             setTimeout(function(){
             $(".pf_animate3").css("display","block");
         },100);
         }
-        if(move>section3-700){
+        if(move>section3-500){
             setTimeout(function(){
             $(".jeju_img").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-        if(move>section3-700){
+        if(move>section3-500){
             setTimeout(function(){
             $(".pf3_h4").css("transform","translateY(0px)").css("opacity","1");
         },300);
        }
-       if(move>section3-700){
+       if(move>section3-500){
         setTimeout(function(){
         $(".pf3_h1").css("transform","translateY(0px)").css("opacity","1");
         },400);
        }
-       if(move>section3-700){
+       if(move>section3-500){
         setTimeout(function(){
         $(".pf3_p").css("transform","translateY(0px)").css("opacity","1");
        },500);
       }
-      if(move>section3-700){
+      if(move>section3-500){
         setTimeout(function(){
         $(".pf3_address").css("transform","translateY(0px)").css("opacity","1");
        },600);
       }
-      if(move>section3-700){
+      if(move>section3-500){
         setTimeout(function(){
         $(".pf3_btnbox").css("transform","translateY(0px)").css("opacity","1");
        },700);
